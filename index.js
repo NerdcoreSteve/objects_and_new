@@ -30,6 +30,8 @@ const
     somePerson = person('Miss', 'Piggy')
 
 console.log(Object.keys(spiderman))
+console.log(spiderman.firstName)
+console.log(spiderman['lastName'])
 
 console.log(superHero('Clark', 'Kent', 'Smallville'))
 
@@ -47,7 +49,7 @@ somePerson.lastName = 'Pacman'
 console.log(somePerson.fullName())
 
 somePerson.shoes = 'Chuck Taylor\'s'
-console.log(JSON.stringify(somePerson))
+console.log(somePerson)
 
 console.log((new spaceShip('galaxy', 'warp', 'Enterprise')).description())
 
